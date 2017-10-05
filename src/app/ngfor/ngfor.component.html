@@ -1,0 +1,8 @@
+<p>
+  ngfor works!
+</p>
+
+<button (click)="atualizar()">Atualizar</button>
+<ul *ngFor="let nome of nomes, let i = index, trackBy:meuSave">
+	<li>O nome: {{nome.nome}}, está na posição {{nome.id}}</li>
+</ul>

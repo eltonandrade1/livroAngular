@@ -1,0 +1,15 @@
+.cor-fundo {
+	background-color: gray;
+}
+
+.cor-letra {
+	color: red;
+}
+
+.estilo-letra {
+	font-style: italic; 
+}
+
+.borda-paragrado {
+	border: 2px green solid;
+}

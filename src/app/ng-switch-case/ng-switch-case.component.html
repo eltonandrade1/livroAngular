@@ -1,0 +1,14 @@
+<p>
+  ng-switch-case works!
+</p>
+
+<div [ngSwitch]="numero">
+	<p *ngSwitchCase="1">valor = {{numero}}</p>
+	<p *ngSwitchCase="2">valor = {{numero}}</p>
+	<p *ngSwitchCase="3">valor = {{numero}}</p>
+	<p *ngSwitchCase="4">valor = {{numero}}</p>
+	<p *ngSwitchCase="5">valor = {{numero}}</p>
+	<p *ngSwitchDefault>Padrão</p>
+</div>
+
+<button (click)="incrementarNumero()">Incrementar</button>
